@@ -1,0 +1,33 @@
+.login-page{
+    background-color: #EBF5FF;
+    height:800px;
+    padding:0 150px;
+  }
+  h1.sub-heading{
+    color:#100D9A;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+    
+  }
+   h2.sub-heading{
+    color:#2C27EC;
+    font-size: 2rem;
+    font-weight:700;
+    padding-top: 50px ;
+    text-align: left;
+  }
+  .ehr-login{
+    height:500px;
+    margin: 20px 0;
+    padding:20px;
+    width:500px;
+  }
+  
+  .grid-block{
+    padding-left: 30px;
+  }
+  .form-signin{
+    padding:70px;
+  }

@@ -1,0 +1,53 @@
+.register-page {
+  background-color: #EBF5FF;
+  min-height: 100vh;
+  padding:0 150px;
+}
+
+.sub-heading {
+  text-align: center;
+  color: #2C27EC;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+h1.sub-heading{
+  color: #100D9A;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top:20px;
+    text-align: center;
+}
+.ehr-register{
+    height:500px;
+    margin: 20px 0;
+    padding:60px;
+    width:500px;
+  }
+.form-signin-reg {
+  
+  padding: 20px 40px 20px 40px;
+  /* border-radius: 20px; */
+  margin-top: 0px;
+ /* box-shadow: 0px 4px 15px rgba(0,0,0,0.1) ; */
+}
+
+.heading {
+  color: #2C27EC;
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btns {
+  background-color: #2C27EC !important;
+  border: none !important;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btns:hover {
+  background-color: #1d19b8 !important;
+}

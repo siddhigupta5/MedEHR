@@ -1,0 +1,62 @@
+.dashboard-actions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.dashboard-action-card {
+    background: #2525D8;
+
+    border-radius: 16px;
+
+    min-height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+
+    transition: all 0.3s ease;
+}
+
+.dashboard-action-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.action-icon {
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 14px;
+
+    background: rgba(255,255,255,0.15);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+}
+
+.dashboard-action-card span {
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+

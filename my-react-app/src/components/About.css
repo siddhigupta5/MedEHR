@@ -1,0 +1,38 @@
+.about{
+    height:800px;
+    padding:0 150px;
+  }
+  h1.sub-heading{
+    color:#100D9A;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+    
+  }
+   h2.sub-heading{
+    color:#2C27EC;
+    font-size: 2rem;
+    font-weight:700;
+    padding-top: 50px ;
+    text-align: left;
+  }
+  .ehr{
+    height:300px;
+    margin: 20px 0;
+    padding:20px;
+    width:500px;
+  }
+  p.points{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    padding:5px 0;
+  }
+  .points img{
+    padding-right: 10px;
+    width:30px;
+  }
+  .grid-block{
+    padding-left: 30px;
+  }

@@ -1,0 +1,56 @@
+.App-header {
+    border-bottom-right-radius:300px;
+    background-color:#EBF5FF;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(8px + 2vmin);
+    padding :0 150px ;
+  
+  }
+  
+  h2.big-heading{
+   color:#100D9A;
+   font-weight: 700;
+   margin : 50px 0;
+  
+  }
+  h1.title{
+    color:#2C27EC;
+    font-weight: 900;
+    margin:0;
+    padding: 10px 0;
+  }
+  p{
+    color:#2C27EC;
+    font-weight:500;
+    margin:0;
+    max-width:450px;
+  }
+  .title-text{
+    padding: 70px 0;
+  }
+  .pic{
+    height:500px;
+    max-width: 650px;
+  }
+  .button{
+    padding-right:20px;
+  }
+  .btn{
+    display:inline-block;
+    padding:30px 20px 30px 0px;
+  }
+  button:hover{
+    opacity:0.9;
+  }
+  .buttons{
+    background-color:#2C27EC;
+    border-radius: 4rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+  }
