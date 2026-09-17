@@ -5,7 +5,13 @@ dotenv.config();
 import app from "./app.js";
 import cors from "cors";
 
-app.use(cors());
+//app.use(cors());
+
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+  })
+);
 
 const PORT = process.env.PORT || 5000;
 
