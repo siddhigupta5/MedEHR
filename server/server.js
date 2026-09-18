@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import recordRoutes from "./routes/recordRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 dotenv.config();
 
 import app from "./app.js";
@@ -14,6 +15,8 @@ app.use(
 );
 
 const PORT = process.env.PORT || 5000;
+
+app.use("/api/auth", authRoutes);
 
 app.use("/api/records", recordRoutes);
 
